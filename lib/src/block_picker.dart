@@ -73,7 +73,7 @@ class BlockPicker extends StatefulWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(50.0),
         color: color,
-        border: Border.all(color: color == Colors.white ? Colors.black : color),
+        border: Border.all(color: color == Colors.white ? Colors.grey.shade800 : color),
         boxShadow: [
           BoxShadow(
             color: color.withOpacity(0.8),
